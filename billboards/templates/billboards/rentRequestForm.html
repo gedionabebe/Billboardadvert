@@ -1,0 +1,22 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block title%}rentRequest{%endblock%}
+{%block content%}
+<div class="rent-form">
+    <div class="rent-title">
+        <header style="color:black">Rent Form</header>
+    </div>
+    <form style="color:black" action="{%url 'billboards:rentRequestForm'%}", method="POST" >
+        {% csrf_token %}
+        {{form.as_p}}
+        <button style="background-color: #05386b" class="btn btn-lg btn-primary btn-block"type="submit", name="save">rent</button>
+    </form>
+     <form style="color:black" action="/../billboards/rent/" method="POST" >
+        {% csrf_token %}
+        {{form.as_p}}
+                <input type="hidden" name="billboard_id" value="{{singleBillboard.id}}">
+                <input type="hidden" name="billboard_owner" value="{{singleBillboard.owner}}">
+        <button style="background-color: #05386b" class="btn btn-lg btn-primary btn-block"type="submit", name="save">RENT</button>
+    </form>
+</div>
+{%endblock%}

@@ -1,0 +1,41 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block title%}
+Owner's Page
+{%endblock%}
+<br>
+{%block content%}
+
+<h1>Billboard</h1>
+<br>
+{% for ownerdetail in ownerdetails %}
+<div class="section-title">
+    <b><h2>Billboards from  {{ownerdetail.account.name}}</h2></b>
+    <h3>Contact List</h3>
+    <p>Email: {{ownerdetail.account.email}}</p>
+    <p>Phone-Number: {{ownerdetail.account.phone_number}}</p>
+  </div> 
+
+  {% endfor %}
+<div class="row portfolio-container">
+
+
+{% for ownerbill in ownerbills %}
+<div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+    <div class="portfolio-wrap">
+            
+<img class="card-img-top" data-src="bg=55595c&amp;fg=eceeef&amp;text=Billboard test" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="{{MEDIA_URL }}{{ownerbill.primary_photo.url}}" data-holder-rendered="true">
+
+            
+<div class="portfolio-info">
+    <h4><a href="{% url 'billboards:detail' ownerbill.id %}">{{ownerbill.name}}</a></h4>
+        <p>Owner:{{ ownerbill.owner.account.name }}</p>
+        <p>rating: {{ownerbill.rating}}</p>
+        <p>location: {{ownerbill.location}}</p>
+        <p>price: {{ownerbill.price}}</p>
+    </div>
+</div>
+</div>
+{% endfor %}
+{%endblock%}
+</div>

@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{%load static from static%}
+{% block extra %}
+<link rel="stylesheet" href="{%static 'vendor/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/fontawesome.min.css'%}">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+{% endblock %}
+{% block nav %}
+    {% if userr %}
+    <li><a href="{%url 'accounts:logout_view'%}">logout</a></li>
+    <li><a href="{%url 'accounts:profile_server'%}" class=""><i class="fa fa-user-circle fa-2x"></i></a></li>
+    {% else %}
+    <li><a href="{%url 'accounts:login'%}">login</a></li>
+<li><a href="{%url 'accounts:registrationtest'%}">Sign Up</a></li>
+    {%endif%}
+{% endblock %}
+{% block content %}
+
+<section class="hero-section set-bg" data-setbg="{% static 'image/blank billboard.jpg'%}">
+    <div class="container" style=" margin-top:15px; border-top: 1px solid #d4d4d4; background:white; padding:1% ">
+        <div class="row">
+            <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                          <img class="card-img-top" data-src="bg=55595c&amp;fg=eceeef&amp;text=Billboard test" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="{{MEDIA_URL }}{{singleBillboard.primary_photo.url}}" data-holder-rendered="true">
+                        </div>
+            </div>
+            <div style="color:black"class="card-body">
+
+                        <p class="card-text">Rating{%for i in rating_checked_list%}
+                        <span class="fa fa-star checked"></span>
+                        {%endfor%}
+                        {%for i in rating_empty_list%}
+                        <span class="fa fa-star "></span>
+                        {%endfor%} </p>
+                        <p class="card-text">Location: {{singleBillboard.location}} </p>
+                        <p class="card-text">Price/mo: {{singleBillboard.price}} birr</p>
+                        <p class="card-text">Owner: <a href="{% url 'billboards:ownerpage' singleBillboard.id %}">{{singleBillboard.owner.account.name}}</a> </p>
+                        <p class="card-text">Length: {{singleBillboard.length}} meter </p>
+                        <p class="card-text">Width: {{singleBillboard.width}} meter</p>
+
+                    </div>
+            <div id="calendadr"></div>
+
+        </div>
+        <div class="col-md-4">
+                    <h4>Available months</h4>
+            <form action="{%url 'billboards:rent'%}" method="POST" >
+                {% csrf_token %}
+            {%for month in months%}
+              <input type="checkbox" id="{{month}}" name="months" value="{{month}}">
+              <label for="{{month}}">{{month}}</label><br>
+                            {%endfor%}
+                             <input type="hidden" name="billboard_id" value="{{singleBillboard.id}}">
+                             <input type="hidden" name="billboard_owner" value="{{singleBillboard.owner}}">
+                        <input type="submit" value="rent">
+            </form>
+            </div>
+            </div>
+    </div>
+
+</section>
+
+<section class="hero-section set-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hero-text">
+                    <img src="{% static 'image/blank billboard.jpg'%}" alt="">
+                    <h1 style="color:black"> {{singleBillboard.name}} </h1>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-body">
+                <br>
+                {{singleBillboard.owner}}
+                <br>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+

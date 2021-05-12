@@ -1,0 +1,122 @@
+{% extends 'userbase.html' %}
+{% load static %}
+{% block title %}
+owner
+{% endblock %}
+{% block extra %}
+    <link rel="stylesheet" href="{%static 'vendor/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/fontawesome.min.css'%}">
+    <link rel="stylesheet" href="{%static 'vendor/font-awesome-4.7.0/css/font-awesome.min.css'%}">
+    <link rel="stylesheet" type="text/css" href="{%static 'css/simple-sidebar.css'%}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3498db;
+  color: white;
+}
+</style>
+{% endblock %}
+{% block content %}
+
+
+
+{% block name %}Admin{% endblock %}
+<div class="container-fluid page-content-wrapper main" style="margin: top 50px;">
+Welcome owner: {{owner.account.name}} <br>
+<p>your account ID is: {{owner.account.id}}</p><br>
+<div class="section-title">
+          <h2>all billboards</h2>
+        </div>
+<table id="customers" align="center">
+    <tr>
+        <th>Name</th>
+        <th>price</th>
+        <th>location</th>
+        <th>length</th>
+        <th>width</th>
+        <th>accept</th>
+        <th>decline</th>
+        <th>ban</th>
+
+    </tr>
+    {% for billboard in billboards %}
+    <tr>
+        <td>{{billboard.name}}</td>
+        <td>{{billboard.price}}</td>
+        <td>{{billboard.location}}</td>
+        <td>{{billboard.length}}</td>
+        <td>{{billboard.width}}</td>
+        <td ><form action = "{%url 'accounts:acceptBillboardPost'%}" method="post">
+          {% csrf_token %}
+          <input type="hidden" name="id" value="{{billboard.id}}">
+          <input type="submit" value="accept">
+        </form>
+        </td>
+        <td ><form action = "{%url 'accounts:delete'%}" method="post">
+          {% csrf_token %}
+          <input type="hidden" name="id" value="{{billboard.id}}">
+          <input type="submit" value="decline">
+        </form>
+        </td>
+        {% if billboard.status == 'accepted' %}
+            <td ><form action = "{%url 'accounts:delete'%}" method="post">
+          {% csrf_token %}
+          <input type="hidden" name="id" value="{{billboard.id}}">
+          <input type="submit" value="ban">
+        </form>
+        </td>
+        {% endif %}
+
+    </tr>
+    {%endfor%}
+
+
+
+</table><br>
+
+    <div class="section-title">
+          <h2>system users</h2>
+        </div><table id="customers" align="center">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Email</th>
+        <th>Phone</th>
+
+    </tr>
+    {% for user in users %}
+    <tr>
+        <td>{{user.name}}</td>
+        <td>{{user.Account_type}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.phone_number}}</td>
+    </tr>
+    {%endfor%}
+</table><br>
+
+</div>
+
+
+{% endblock %}
+
+
+

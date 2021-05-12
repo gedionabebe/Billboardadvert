@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/templates/base.html" line="91" mnemonic="1" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea091609-a512-485a-bbf3-ce6c8991ed6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0021_auto_20200402_1442.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0022_account_administrator_advertiser_owner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0023_account_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/adminTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/login_failed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/ownerTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/registrationFailed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/simpleadmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/simpleadvertiser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/simpleowner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/userbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillAd/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BillAd/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillAd/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BillAd/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillAd/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BillAd/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/advertiser.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/advertiser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/basicTable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/owner.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/owner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/registrationtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/registrationtest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/migrations/0002_billboard_primary_photo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/migrations/0003_auto_20200205_2121.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/migrations/0004_auto_20200205_2155.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/migrations/0005_auto_20200205_2157.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/migrations/0006_rent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/templates/billboards/addBillboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/templates/billboards/billboardDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/templates/billboards/billboardDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/templates/billboards/billboard_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/templates/billboards/billboard_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/templates/billboards/listtest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/templates/billboards/rentRequestForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/templates/billboards/rentRequestForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billboards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/billboards/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/AdminStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_about.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_courses.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_courses.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_feature.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_feature.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_price.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/_price.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/agency.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/bootstrap-colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/breadcrumb.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/counter-up/jquery.counterup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/counter-up/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/elegant-icons-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/jquery-jvectormap-1.2.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/jquery-ui-1.10.4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/style-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/css/xcharts.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/Heni.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/avatar.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/background/pattern1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/background/pattern2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/banner/about1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/banner/about2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/banner/about3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/banner/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/banner/home-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blank billboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/add.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/blog3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/cat-post/cat-post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/cat-post/cat-post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/cat-post/cat-post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/causes/causes-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/causes/causes-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/causes/causes-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/latest-post/l-post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/latest-post/l-post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/latest-post/l-post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/latest-post/l-post-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/main-blog/m-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/main-blog/m-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/main-blog/m-blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/main-blog/m-blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/main-blog/m-blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/popular-post/post1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/popular-post/post2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/popular-post/post3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/popular-post/post4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/post-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/post-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/blog/prev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/single_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/tes1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/tex2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/user1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/elements/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/ezzy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/ezzyy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/gedi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/henock (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/henock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/icon/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/icons8-ios-filled-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/logo/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/logo/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/logo/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/logo/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/logo/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/mena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/menaa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/notify-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/sample billboard 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/sample billboard 3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/sample billboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/images/video-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/bootstrap-colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/bootstrap-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/bootstrap-wysiwyg-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/bootstrap-wysiwyg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/calendar-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/chartjs-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/charts-flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/charts-other.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/charts-xcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/dynamic-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/easy-pie-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/form-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/form-validation-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/fullcalendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/ga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/gdp-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/gmaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/gritter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery-ui-1.10.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.ajaxchimp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.autosize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.customSelect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.hotkeys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.localscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.nicescroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.placeholder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.rateit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.scrollTo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.smartWizard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.sparkline-11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.stepy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/lte-ie7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/morris-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/sliders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/sparkline-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/sparklines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/stellar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/js/xcharts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_feature.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_predefine.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_pricing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_services.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_statics.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_testimonials.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/animate-css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/animate-css/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/animsition/css/animsition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/animsition/css/animsition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/animsition/js/animsition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/animsition/js/animsition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/countdowntime/countdowntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/daterangepicker/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/fontawesome/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/owl-carousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/owl-carousel/assets/animated.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/owl-carousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/owl-carousel/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/select2/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticFiles/vendors/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9008">
+              <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="39" column="20" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="39" selection-end-column="20" />
+              <folding>
+                <element signature="e#727#752#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/simpleowner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/simpleadvertiser.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/billboards/templates/billboards/billboardDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/billboards/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/billboards/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/homepage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/billboards/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>registerUserform</find>
+      <find>request</find>
+      <find>advertiser</find>
+      <find>link</find>
+      <find>sign</find>
+      <find>your re</find>
+      <find>portfolio-info</find>
+      <find>section</find>
+      <find>about</find>
+      <find>acceptBillboa</find>
+      <find>registrationtest</find>
+      <find>registerOwner</find>
+      <find>registerAdministrator</find>
+      <find>registerAd</find>
+      <find>administrator</find>
+      <find>#team</find>
+      <find>get(id=5</find>
+      <find>team</find>
+      <find>extra</find>
+      <find>auth</find>
+      <find>auth_</find>
+      <find>logout</find>
+      <find>nav</find>
+      <find>monh</find>
+      <find>simplead</find>
+      <find>request.POST[</find>
+      <find>request.POST['</find>
+      <find>httprespon</find>
+      <find>auth_view</find>
+      <find>addbillboard</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/loginsub.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/Registration/registratin.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/Registration/login.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/Registration/registration.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/billboard_detail.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/test.html" />
+        <option value="$PROJECT_DIR$/accounts/migrations/0003_auto_20191218_1013.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/billboard_list.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/registration.html" />
+        <option value="$PROJECT_DIR$/templates/about.html" />
+        <option value="$PROJECT_DIR$/templates/list.html" />
+        <option value="$PROJECT_DIR$/../../../../../../send/work/Album example for Bootstrap.html" />
+        <option value="$PROJECT_DIR$/../../../../../../IT sec lab.py" />
+        <option value="$PROJECT_DIR$/../../../../../../client.py" />
+        <option value="$PROJECT_DIR$/accounts/migrations/0021_auto_20200401_1741.py" />
+        <option value="$PROJECT_DIR$/staticFiles/css/AdminStyle.css" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/signin.html" />
+        <option value="$PROJECT_DIR$/staticFiles/css/agency.min.css" />
+        <option value="$PROJECT_DIR$/staticFiles/css/signin.css" />
+        <option value="$PROJECT_DIR$/accounts/admin.py" />
+        <option value="$PROJECT_DIR$/staticFiles/js/advertiser.js" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/advertisertest.html" />
+        <option value="$PROJECT_DIR$/billboards/admin.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/advertiser.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/owner.html" />
+        <option value="$PROJECT_DIR$/billboards/templates/billboards/rentRequestForm.html" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/registrationFailed.html" />
+        <option value="$PROJECT_DIR$/BillAd/urls.py" />
+        <option value="$PROJECT_DIR$/billboards/urls.py" />
+        <option value="$PROJECT_DIR$/BillAd/settings.py" />
+        <option value="$PROJECT_DIR$/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/staticFiles/css/style.css" />
+        <option value="$PROJECT_DIR$/BillAd/views.py" />
+        <option value="$PROJECT_DIR$/billboards/forms.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/accounts/models.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/login_failed.html" />
+        <option value="$PROJECT_DIR$/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/login.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/registrationtest.html" />
+        <option value="$PROJECT_DIR$/templates/userbase.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/simpleadmin.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/simpleowner.html" />
+        <option value="$PROJECT_DIR$/billboards/templates/billboards/billboard_list.html" />
+        <option value="$PROJECT_DIR$/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/billboards/templates/billboards/billboardDetail.html" />
+        <option value="$PROJECT_DIR$/billboards/models.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/simpleadvertiser.html" />
+        <option value="$PROJECT_DIR$/billboards/views.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="319" />
+    <option name="width" value="1052" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+              <item name="billboards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+              <item name="billboards" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+              <item name="billboards" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="billboards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BillAd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BillAd" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\staticFiles\img" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\staticFiles\images" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\staticFiles" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\staticFiles\css" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\accounts\templates\accounts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\templates" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\billboards\templates\billboards" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\staticFiles\css" />
+      <recent name="C:\Users\Hp\Desktop\Ezzy's\school stuff\4th year\RAD\project 5\BillAd\staticFiles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea091609-a512-485a-bbf3-ce6c8991ed6f" name="Default Changelist" comment="" />
+      <created>1576621862029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576621862029</updated>
+    </task>
+    <task id="LOCAL-00001" summary="registration function and few changes to models">
+      <created>1579802586306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579802586306</updated>
+    </task>
+    <task id="LOCAL-00002" summary="registration function and few changes to models">
+      <created>1579802623711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579802623711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.19419643" />
+      <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.13392857" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2584814" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956383" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49776787" visible="true" weight="0.59773827" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.95153475" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956383" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.171875" />
+      <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.13392857" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2584814" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49776787" weight="0.048465267" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.95153475" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956383" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="registration function and few changes to models" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration function and few changes to models" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../../../work related/mysite/index.html" />
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/owner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="55" column="68" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/db.sqlite3" />
+    <entry file="file://$PROJECT_DIR$/db.sqlite3" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1395339022/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/advertiser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/migrations/0007_remove_rent_advertiser.py" />
+    <entry file="file://$PROJECT_DIR$/billboards/migrations/0006_auto_20201017_2046.py" />
+    <entry file="file://$PROJECT_DIR$/billboards/migrations/0005_rent_advertiser.py" />
+    <entry file="file://$PROJECT_DIR$/billboards/migrations/0004_remove_rent_advertiser.py" />
+    <entry file="file://$PROJECT_DIR$/billboards/migrations/0003_rent_advertiser.py" />
+    <entry file="file://$PROJECT_DIR$/billboards/templates/billboards/rentRequestForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../BillAd/BillAd/accounts/views.py" />
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13855">
+          <caret line="815" column="23" selection-start-line="815" selection-start-column="18" selection-end-line="815" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capture.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticFiles/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/registrationFailed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="12" selection-start-column="5" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BillAd/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BillAd/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/images/download_1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticFiles/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="808" column="29" lean-forward="true" selection-start-line="808" selection-start-column="29" selection-end-line="808" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BillAd/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login_failed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="102" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/registrationtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="85" column="214" selection-start-line="85" selection-start-column="214" selection-end-line="85" selection-end-column="214" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#html#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/simpleadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/templates/billboards/billboard_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="109" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="e#727#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/simpleowner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/simpleadvertiser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/templates/billboards/billboardDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billboards/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9008">
+          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

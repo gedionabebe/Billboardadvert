@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{%load static from staticfiles%}
+
+{%load static%}
+{% block title%}  Login     {% endblock %}
+{% block content %}
+  <section id="portfolio" class="portfolio">
+<div class="container" style="margin-top: 50px;">
+    <div class="section-title">
+    <form class="form-signin" id="background" action= "{%url 'accounts:registrationtest'%}" method="post">
+      <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+        <p style="color:#ff305d">The username is unavailable</p><br>
+      {% csrf_token %}
+        {{form.as_p}}
+        {% csrf_token %}
+        <input type="submit" value="register">
+
+    </form>
+    </div>
+
+</div>
+  </section>
+{% endblock %}
+
+
+##################################################################################################################

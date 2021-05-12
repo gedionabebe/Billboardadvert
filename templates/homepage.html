@@ -1,0 +1,301 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Homepage
+{% endblock %}
+{% block extra %}
+<!-- <link href="{%static 'css/agency.min.css' %}" rel="stylesheet"> -->
+     
+{% endblock %}
+{% block nav %}
+    {% if userr %}
+    <li><a href="{%url 'accounts:logout_view'%}">logout</a></li>
+    <li><a href="{%url 'accounts:profile_server'%}" class=""><i class="fa fa-user-circle fa-2x"></i></a></li>
+    {% else %}
+    <li><a href="{%url 'accounts:login'%}">login</a></li>
+<li><a href="{%url 'accounts:registrationtest'%}">Sign Up</a></li>
+    {%endif%}
+{% endblock %}
+{% block content %}
+
+<style>
+  #hero {
+    background-image: url('/static/images/main.jpg');
+  }
+  </style>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Welcome to <span>BillAd</span></h1>
+      <h2>Advertisement Renting Made Easy</h2>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg" style="background:lightgray;">
+      <div class="container">
+      
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>All Things Billboard</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <i class="icofont-computer"></i>
+              <h4><a href="#">Digitalized Advertisement Rental</a></h4>
+              <p>All you need is a laptop and an internet connection for the whole process</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="icofont-chart-bar-graph"></i>
+              <h4><a href="#">Easy Management</a></h4>
+              <p>Manage all your billboards from one place.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="icofont-image"></i>
+              <h4><a href="#">Gallery </a></h4>
+              <p>Find an organized list of all the available billboards</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="icofont-settings"></i>
+              <h4><a href="#">Nemo Enim</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="icofont-earth"></i>
+              <h4><a href="#">Web Based</a></h4>
+              <p>Manage your Billboard Anywhere</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="icofont-tasks-alt"></i>
+              <h4><a href="#">Booking</a></h4>
+              <p>schedule to rent a billboard beforehand.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+   
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="{%static 'images/about.jpg'%}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>About Us</h3>
+            <p>
+              BillAd is a system that that gives every service related to Billboard renting in Addis Ababa.
+     
+    
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i> Stores all the information about billboards posted all over the city.</li>
+              <li><i class="bx bx-check-double"></i> Stores information about owners and prices and locations and things like that.</li>
+              <li><i class="bx bx-check-double"></i> BillAd app was developed by four graduating year IT students as a final project.</li>
+
+            </ul>
+            <!-- <div class="row icon-boxes">
+              <div class="col-md-6">
+                <i class="bx bx-receipt"></i>
+                <h4>Corporis voluptates sit</h4>
+                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-0">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Ullamco laboris nisi</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    
+
+    
+
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg " style="background:#f7fbfe;">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Personna that contributed to this site.</p>
+        </div>
+ 
+        
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/team-1.jpg" alt="">
+              <h4>Menassie Ermias</h4>
+              <span>Programmer</span>
+              <p>
+                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+              </p>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" alt="">
+              <h4>Gedion Abebe</h4>
+              <span>Programmer</span>
+              <p>
+                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              </p>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" alt="">
+              <h4>Henock Kinfegebriel</h4>
+              <span>Programmer</span>
+              <p>
+                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              </p>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" alt="">
+              <h4>Eyouel Tsegaye</h4>
+              <span>Programmer</span>
+              <p>
+                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              </p>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact ">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga</p>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street<br>New York, NY 535022</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-10">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+ 
+</body>
+
+{% endblock %}
+
+
